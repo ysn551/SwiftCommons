@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA274C61E54ABEB002B5647 /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA274C51E54ABEB002B5647 /* Collection+.swift */; };
+		4AA274CA1E54AC02002B5647 /* Collection+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA274C71E54AC02002B5647 /* Collection+Tests.swift */; };
+		4AA274CB1E54AC02002B5647 /* emoji_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AA274C91E54AC02002B5647 /* emoji_list.txt */; };
 		7025D02B1B8B8A1E00D5C982 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025D02A1B8B8A1E00D5C982 /* Functions.swift */; };
 		7025D02E1B8B8A8200D5C982 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025D02D1B8B8A8200D5C982 /* FunctionsTests.swift */; };
 		7025D0321B8C9FEC00D5C982 /* UIView+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025D0311B8C9FEC00D5C982 /* UIView+Tests.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AA274C51E54ABEB002B5647 /* Collection+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
+		4AA274C71E54AC02002B5647 /* Collection+Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Tests.swift"; sourceTree = "<group>"; };
+		4AA274C91E54AC02002B5647 /* emoji_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emoji_list.txt; sourceTree = "<group>"; };
 		7025D02A1B8B8A1E00D5C982 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		7025D02D1B8B8A8200D5C982 /* FunctionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		7025D0311B8C9FEC00D5C982 /* UIView+Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Tests.swift"; sourceTree = "<group>"; };
@@ -119,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AA274C81E54AC02002B5647 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AA274C91E54AC02002B5647 /* emoji_list.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7025D02F1B8C9EA600D5C982 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +253,7 @@
 		7077E53F1B44111F00E3BBED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AA274C81E54AC02002B5647 /* Resources */,
 				7077E5401B44111F00E3BBED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -247,6 +262,7 @@
 		70C0A2A31E2A5A9B0072D72D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4AA274C71E54AC02002B5647 /* Collection+Tests.swift */,
 				708E18E31B8B518000B11067 /* Array+Tests.swift */,
 				70F0F4DF1C09627E0041F07A /* MutableArray+Tests.swift */,
 				7069A9D31E267CA50008CE95 /* Character+Tests.swift */,
@@ -262,6 +278,7 @@
 		70C0A2A41E2A5AA30072D72D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4AA274C51E54ABEB002B5647 /* Collection+.swift */,
 				708E18E11B8B50E400B11067 /* Array+.swift */,
 				70F0F4DD1C0962470041F07A /* MutableArray+.swift */,
 				7069A9D11E267B4E0008CE95 /* Character+.swift */,
@@ -403,6 +420,7 @@
 			files = (
 				70F7F5221BE51C1A00353E28 /* SampleView.xib in Resources */,
 				70F7F5201BE51C1A00353E28 /* SampleViewController.storyboard in Resources */,
+				4AA274CB1E54AC02002B5647 /* emoji_list.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +434,7 @@
 				705FDC211C0097A50065204C /* Sequence+.swift in Sources */,
 				70F5A85B1C00D9BD00D6736B /* Debug.swift in Sources */,
 				708E18E21B8B50E400B11067 /* Array+.swift in Sources */,
+				4AA274C61E54ABEB002B5647 /* Collection+.swift in Sources */,
 				707278891BA1CC47002770EF /* NSDate+.swift in Sources */,
 				7069A9D21E267B4E0008CE95 /* Character+.swift in Sources */,
 				708E18EB1B8B6E5200B11067 /* String+.swift in Sources */,
@@ -438,6 +457,7 @@
 				7047AA7C1C9FC4A900A73270 /* Bool+Tests.swift in Sources */,
 				70F7F51F1BE51C1A00353E28 /* SampleViewController.swift in Sources */,
 				7025D0321B8C9FEC00D5C982 /* UIView+Tests.swift in Sources */,
+				4AA274CA1E54AC02002B5647 /* Collection+Tests.swift in Sources */,
 				70F5A85E1C00DA9400D6736B /* DebugTests.swift in Sources */,
 				70943FEB1B8B7D020024D3DF /* UIColor+Tests.swift in Sources */,
 				705FDC231C0098D10065204C /* Sequence+Tests.swift in Sources */,
